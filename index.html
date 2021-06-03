@@ -44,6 +44,32 @@ function bluetext(){
     })
   });
   </script>
+  <script>
+    $("document").ready(function(){
+    $("#but5_1").on("click",function(){
+      $(".grid5_1").show();
+      $(".grid5_2").hide();
+      $(".grid5_3").hide();
+    })
+    }
+    );
+  
+    $("document").ready(function(){
+      $("#but5_2").on("click", function(){
+        $(".grid5_2").show();
+        $(".grid5_1").hide();
+      $(".grid5_3").hide();
+      })
+    });
+  
+    $("document").ready(function(){
+      $("#but5_3").on("click", function(){
+        $(".grid5_3").show(); 
+        $(".grid5_2").hide();
+      $(".grid5_1").hide();   
+      })
+    });
+    </script>
 <link
         href = "css-style.css"
         type = "text/css"
@@ -230,6 +256,79 @@ function bluetext(){
     </div>
   </div>
 </div>
+
+<div class="container five-section">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="text-uppercase text-primary">Останні новини</div>
+      <h1 class="text-left mt-3">Проекти Орфанного Дзвону</h1>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+    <p class="text-muted">Орфанний Дзвін разом з меценатами проводить акції підтримки маленьких рідкісних пацієнтів.
+      </p>
+      </div>
+      <div class="col-md-6 position-relative">
+        <div class="position-absolute top-0 start-0">
+      <button type="button" class="btn btn-primary rounded-pill mx-3" id="but5_1">Орфанний Дзвін</button>
+      <button type="button" class="btn btn-primary rounded-pill mx-3" id="but5_2">Круглий стіл</button>
+      <button type="button" class="btn btn-primary rounded-pill mx-3" id="but5_3">Дельфінарій</button>
+    </div>
+        </div>
+    </div>
+    <div class="grid5_1 text-muted">
+      <div>
+      <img src="images1.jpg"><br>
+Круглий стіл<br>
+      <h5 class="text-dark">Круглий стіл в ЛОДА 2020</h5>
+    </div>
+    <div>
+      <img src="images2.jpg">
+      <br>Круглий стіл<br>
+      <h5 class="text-dark">Фотовиставка біля ЛМР</h5>
+    </div>
+      <div id="img3">
+      <img src="images3.jpg">
+      <br>День святого Миколая<br>
+      <h5 class="text-dark">Андрій Гулей</h5>
+    </div>
+    <div id="img4">
+      <img src="images4.jpg" >
+      <br>Круглий стіл<br>
+      <h5 class="text-dark">Амбасадорка Орфанного Дзвону</h5>
+    </div>
+    <div>
+      <img src="images5.jpg">
+      <br>Дельфінарій<br>
+      <h5 class="text-dark">Флешмоб для школярів</h5>
+    </div>
+    <div>
+      <img src="images6.jpg">
+      <br>Круглий стіл<br>
+      <h5 class="text-dark">Собко І.М.</h5>
+    </div>
+    <div>
+      <img src="images7.jpg">
+      <br>Дельфінарій<br>
+      <h5 class="text-dark">Флешмоб для школярів</h5>
+    </div>
+    </div>
+    <div class="grid5_2">
+      <div>
+        <img src="images6.jpg">
+        <br>Круглий стіл<br>
+        <h5 class="text-dark">Собко І.М.</h5>
+      </div>
+    </div>
+    <div class="grid5_3">
+      <div class="mx-2">
+        <img src="images7.jpg">
+        <br>Дельфінарій<br>
+        <h5 class="text-dark">Флешмоб для школярів</h5>
+      </div>
+    </div>
+    </div>
 
 <footer>
   <nav class="footer">
