@@ -43,7 +43,7 @@ padding-left: 300px;}
     padding-bottom: 100px;}
   
 .five-section{ margin: 0px 80px;
-  padding: 100px 80px;}  
+ }  
 .grid5_1{display:grid;
 grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
 align-items: center;
